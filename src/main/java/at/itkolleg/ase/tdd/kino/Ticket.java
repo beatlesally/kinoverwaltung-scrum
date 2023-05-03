@@ -42,4 +42,8 @@ public class Ticket {
         return platz;
     }
 
+    public String ticketKaufen(){
+        return "Ticket gekauft";
+    }
+
 }
