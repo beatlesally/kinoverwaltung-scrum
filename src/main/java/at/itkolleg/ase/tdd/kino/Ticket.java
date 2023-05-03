@@ -44,6 +44,12 @@ public class Ticket {
         return platz;
     }
 
+
     public int getRanking(){return ranking;}
+
+    public String ticketKaufen(){
+        return "Ticket gekauft";
+    }
+
 
 }
