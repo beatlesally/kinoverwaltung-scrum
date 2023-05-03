@@ -14,6 +14,8 @@ public class Ticket {
 
     private final int platz;
 
+    private int ranking = 2;
+
     public Ticket(String saal, Zeitfenster zeitfenster, LocalDate datum, char reihe, int platz) {
         this.saal = saal;
         this.zeitfenster = zeitfenster;
@@ -41,5 +43,7 @@ public class Ticket {
     public int getPlatz() {
         return platz;
     }
+
+    public int getRanking(){return ranking;}
 
 }
