@@ -81,4 +81,13 @@ public class AppTest {
     void testKinosaalName() {
         assertEquals("KS2", kinosaalOriginal.getName());
     }
+
+    @Test
+    void testTest(){
+        assertTrue(true);
+    }
+    @Test
+    void testTest2(){
+        assertTrue(true);
+    }
 }
